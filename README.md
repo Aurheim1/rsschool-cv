@@ -1,3 +1,3 @@
 # rsschool-cv
 
-https://github.com/Aurheim1/rsschool-cv/cv
+https://aurheim1.github.io/rsschool-cv/cv
