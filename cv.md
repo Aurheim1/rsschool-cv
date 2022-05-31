@@ -1,4 +1,4 @@
-## **[rsschool-cv](https://github.com/Aurheim1/rsschool-cv)**
+## **[rsschool-cv](https://aurheim1.github.io/rsschool-cv)**
 
 # **Pavel Mikhailov**
 
