@@ -1,23 +1,253 @@
-* {
+@font-face {
+  font-family: "Montserrat";
+  src: url("/assets/fonts/Montserrat-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("/assets/fonts/Montserrat-Bold.ttf");
+  font-weight: 700;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
   padding: 0;
   margin: 0;
-  border: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-a {
-  text-decoration: none;
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
 }
-ul,
-ol,
-li {
+.header {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  width: 100%;
+}
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
   list-style: none;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: inherit;
-  font-size: inherit;
+.nav-link {
+  line-height: 50px;
+  transition: 0.4s;
+  text-decoration: none;
+  color: #bbb;
+}
+.nav-link:hover {
+  color: white;
+}
+.home-bg {
+  background: rgb(12, 25, 61);
+  background: radial-gradient(
+    circle,
+    rgba(12, 25, 61, 1) 0%,
+    rgba(0, 0, 0, 1) 40%
+  );
+}
+.section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.content-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.title {
+  font-size: 32px;
+  color: #1d1d1f;
+}
+.title-home {
+  font-size: 48px;
+  padding-bottom: 20px;
+  color: #c6e2e6;
+}
+.title-text {
+  font-weight: bold;
+  color: #1d1d1f;
+  font-size: 21px;
+}
+.text {
+  font-size: 21px;
+}
+.text-home {
+  font-size: 28px;
+  padding-bottom: 20px;
+  color: #c6e2e6;
+}
+.btn {
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #c6e2e6;
+  border: 2px solid #c6e2e6;
+  border-radius: 980px;
+  padding: 12px 22px;
+  transition: 0.4s;
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: #c6e2e6;
+  color: #1d1d1f;
+}
+.content-about-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.title-about-contact {
+  padding-bottom: 50px;
+}
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapper-my-foto {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.my-foto {
+  border-radius: 50%;
+  width: 40%;
+}
+.wrapper-text-about {
+  width: 50%;
+}
+.text-about {
+  color: #86868b;
+}
+.contact {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-wrapper {
+  width: 50%;
+  padding: 0;
+}
+.contact-item {
+  display: flex;
+  align-items: center;
+  font-size: 21px;
+}
+.wrapper-text-link {
+  padding: 0 10px;
+}
+.contact-link,
+.project-link,
+.channel-link {
+  background-color: rgba(0, 0, 0, 0);
+  color: #1d1d1f;
+  border: 2px solid #1d1d1f;
+}
+.contact-link:hover,
+.project-link:hover,
+.channel-link:hover {
+  background-color: #1d1d1f;
+  color: #bbb;
+}
+.skills {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.title-skills {
+  padding: 50px 0;
+}
+.title-wrapper-skills {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.wrapper-content-skills {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 0px 0px 50px 0px;
+  margin: 0;
+  list-style: none;
+}
+.content-skills {
+  padding-right: 30px;
+}
+.text-skills {
+  color: #86868b;
+}
+.wraper-code-projets {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.code {
+  height: 50%;
+}
+.wrapper-code {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+.big-code {
+  font-size: 30px;
+}
+.projects {
+  height: 50%;
+}
+.project-link {
+  font-size: 21px;
+}
+.section-courses-education-english {
+  display: block;
+}
+.title-courses {
+  padding-top: 70px;
+}
+.youtube {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.youtube-item {
+  display: flex;
+  align-items: center;
+}
+.channel-item {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.channel-link {
+  font-size: 21px;
+}
+.education-english-item {
+  text-align: center;
+}
+.footer {
+  background-color: #f5f5f7;
+  padding: 20px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
