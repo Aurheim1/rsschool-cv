@@ -58,6 +58,7 @@ function greet() {
 
 **University:** Belarusian Trade and Economic University of Consumer Cooperation
 
-## English:
+## Language:
 
-**Beginner:** (My level of English is very weak, I often use a translator, but in the future I plan to learn it better.)
+**Beginner:** My level of English is very weak, I often use a translator, but in the future I plan to learn it better.
+**Russian:** Native
