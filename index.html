@@ -4,387 +4,374 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="icon" href="./assets/favicon/favion.ico" />
-    <title>cv</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/favicon/site.webmanifest" />
+    <title>My resume</title>
   </head>
   <body>
     <header class="header">
-      <div class="container">
-        <nav class="nav">
-          <ul class="nav-list">
-            <li class="nav-item">
-              <a href="#home" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item">
-              <a href="#about-contact" class="nav-link">About Me - Contact</a>
-            </li>
-            <li class="nav-item">
-              <a href="#skills-code-projects" class="nav-link"
-                >Skills-Code Example-Projects</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="#courses-education-english" class="nav-link"
-                >Courses-Education-English</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="#footer" class="nav-link">Footer</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <main class="main">
-      <div class="home-bg">
-        <div class="container">
-          <section class="section" id="home">
-            <div class="content-home">
-              <h1 class="title title-home">Pavel Mikhailov</h1>
-              <p class="text text-home">
-                Hello, I am a student of RS school <br />
-                and this is my resume
-              </p>
-              <a href="#about-contact" class="btn">View my CV</a>
-            </div>
-          </section>
+      <div class="nav-bg">
+        <div class="container header-row">
+          <img class="logo" src="./assets/logo/logo.png" alt="logo" />
+          <nav class="nav">
+            <ul class="nav-list">
+              <li><a class="link nav-link" href="#home">Home</a></li>
+              <li><a class="link nav-link" href="#about">About Me</a></li>
+              <li><a class="link nav-link" href="#contact">Contact</a></li>
+              <li><a class="link nav-link" href="#skills">Skills</a></li>
+              <li><a class="link nav-link" href="#code">Code Example</a></li>
+              <li><a class="link nav-link" href="#projects">Projects</a></li>
+              <li><a class="link nav-link" href="#courses">Courses</a></li>
+              <li><a class="link nav-link" href="#education">Education</a></li>
+              <li><a class="link nav-link" href="#language">Languages</a></li>
+            </ul>
+          </nav>
         </div>
       </div>
       <div class="container">
-        <section class="section" id="about-contact">
-          <div class="content-about-contact">
-            <div class="content-about">
-              <h2 class="title title-about-contact">About Me</h2>
-              <div class="about">
-                <div class="wrapper-my-foto">
-                  <img
-                    class="my-foto"
-                    src="./assets/about-contact/img/my-foto.jpg"
-                    alt="my foto"
-                  />
-                </div>
-                <div class="wrapper-text-about">
-                  <p class="text text-about">
-                    I am 28 years old, I am sociable and polite, I always find a
-                    common language with other people, I really want to learn
-                    front-end development, understand and understand this
-                    direction in IT, and then change my current job.
-                  </p>
-                  <p class="text text-about">
-                    It is very interesting to study the front-end, because you
-                    immediately see the result and it is very motivating, you
-                    want to grow as a specialist and create more serious things.
-                  </p>
-                  <p class="text text-about">
-                    I hope RS School will help me with this and new good
-                    acquaintances with experienced people from this field.
-                  </p>
-                </div>
+        <section id="home" class="section home">
+          <h1 class="title-home">Pavel Mikhailov</h1>
+          <p class="text-home">
+            Hello, I am a student of RS school <br />
+            and this is my resume
+          </p>
+          <a class="btn" href="#about">View my CV</a>
+        </section>
+      </div>
+    </header>
+    <main class="main-bg">
+      <div class="container">
+        <section id="about" class="section about">
+          <h2 class="title">About Me</h2>
+          <div class="content-about">
+            <img
+              class="foto-about"
+              src="./assets/about/img/my-foto.jpg"
+              alt="my-foto"
+            />
+            <div class="text-about-wrapper">
+              <p class="text">
+                I am 28 years old, I am sociable and polite, I always find a
+                common language with other people, I really want to learn
+                front-end development, understand and understand this direction
+                in IT, and then change my current job. people from this field.
+              </p>
+              <p class="text">
+                It is very interesting to study the front-end, because you
+                immediately see the result and it is very motivating, you want
+                to grow as a specialist and create more serious things.
+              </p>
+              <p class="text">
+                I hope RS School will help me with this and new good
+                acquaintances with experienced
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="contact" class="section contact">
+          <h2 class="title title-contact">Contact</h2>
+          <div class="contact-content">
+            <div class="contact-column">
+              <img src="./assets/contact/png/home.png" alt="logo-home" />
+              <p class="text text-contact">Place of residence</p>
+              <a
+                class="contact-link"
+                href="https://goo.gl/maps/KgBMcr7VxTvxeysn8"
+                target="_blank"
+                >Belarus, Gomel region, Zhlobin</a
+              >
+            </div>
+            <div class="contact-column">
+              <img src="./assets/contact/png/iphone.png" alt="logo-iphone" />
+              <p class="text text-contact">Phone</p>
+              <a class="contact-link" href="tel:+375293247314"
+                >+375(29)324-73-14</a
+              >
+            </div>
+            <div class="contact-column">
+              <img src="./assets/contact/png/email.png" alt="logo-email" />
+              <p class="text text-contact">E-mail</p>
+              <a
+                class="contact-link"
+                href="mailto:pasha.mikhaylov.1994@gmail.com"
+                >pasha.mikhaylov.1994@gmail.com</a
+              >
+            </div>
+            <div class="contact-column">
+              <img
+                src="./assets/contact/png/telegram.png"
+                alt="logo-telegram"
+              />
+              <p class="text text-contact">Telegram</p>
+              <a
+                class="contact-link"
+                href="https://t.me/pavel_evg_1994"
+                target="_blank"
+                >@pavel_evg_1994</a
+              >
+            </div>
+            <div class="contact-column">
+              <img src="./assets/contact/png/github.png" alt="logo-github" />
+              <p class="text text-contact">Github</p>
+              <a
+                class="contact-link"
+                href="https://github.com/Aurheim1"
+                target="_blank"
+                >Aurheim1</a
+              >
+            </div>
+            <div class="contact-column">
+              <img src="./assets/contact/png/discord.png" alt="logo-discord" />
+              <p class="text text-contact">Discord</p>
+              <a
+                class="contact-link"
+                href="https://discord.com/invite/zUr7wWYPXE"
+                target="_blank"
+                >pavlusha#2166</a
+              >
+            </div>
+          </div>
+        </section>
+        <section id="skills" class="section skills">
+          <h2 class="title title-skills">Skills</h2>
+          <div class="skills-content">
+            <div class="skills-wrapper">
+              <div class="skills-column">
+                <img
+                  class="logo-skills"
+                  src="./assets/skills/git.png"
+                  alt="git-logo"
+                />
+                <p class="text title-skills-content">Git</p>
+                <p class="text text-skills-content">(basics)</p>
+              </div>
+              <div class="skills-column margin-top-50">
+                <img
+                  class="logo-skills"
+                  src="./assets/skills/github.png"
+                  alt="github-logo"
+                />
+                <p class="text title-skills-content">Github</p>
+                <p class="text text-skills-content">(basics)</p>
               </div>
             </div>
-            <div class="content-contact">
-              <h2 class="title title-about-contact">Contact information</h2>
-              <div class="contact">
-                <ul class="contact-wrapper">
-                  <li class="contact-item">
-                    <img
-                      class="contact-logo"
-                      src="./assets/about-contact/png/contact-item1.png"
-                      alt="location"
-                    />
-                    <span class="title-text wrapper-text-link">
-                      Place of residence:</span
-                    >
-                    <a
-                      class="btn contact-link"
-                      href="https://goo.gl/maps/KgBMcr7VxTvxeysn8"
-                      target="_blank"
-                      >Belarus, Gomel region, Zhlobin</a
-                    >
-                  </li>
-                  <li class="contact-item">
-                    <img
-                      class="contact-logo"
-                      src="./assets/about-contact/png/contact-item2.png"
-                      alt="phone"
-                    />
-                    <span class="title-text wrapper-text-link"> Phone:</span>
-                    <a class="btn contact-link" href="tel:+375293247314"
-                      >+375(29)324-73-14</a
-                    >
-                  </li>
-                  <li class="contact-item">
-                    <img
-                      class="contact-logo"
-                      src="./assets/about-contact/png/contact-item3.png"
-                      alt="email"
-                    />
-                    <span class="title-text wrapper-text-link">Email:</span>
-                    <a
-                      class="btn contact-link"
-                      href="mailto:pasha.mikhaylov.1994@gmail.com"
-                      >pasha.mikhaylov.1994@gmail.com</a
-                    >
-                  </li>
-                </ul>
-                <ul class="contact-wrapper">
-                  <li class="contact-item">
-                    <img
-                      class="contact-logo"
-                      src="./assets/about-contact/png/contact-item4.png"
-                      alt="telegram"
-                    />
-                    <span class="title-text wrapper-text-link"> Telegram:</span>
-                    <a
-                      class="btn contact-link"
-                      href="https://t.me/pavel_evg_1994"
-                      target="_blank"
-                      >@pavel_evg_1994</a
-                    >
-                  </li>
-                  <li class="contact-item">
-                    <img
-                      class="contact-logo"
-                      src="./assets/about-contact/png/contact-item5.png"
-                      alt="github"
-                    />
-                    <span class="title-text wrapper-text-link">Github:</span>
-                    <a
-                      class="btn contact-link"
-                      href="https://github.com/Aurheim1"
-                      target="_blank"
-                      >Aurheim1</a
-                    >
-                  </li>
-                  <li class="contact-item">
-                    <img
-                      class="contact-logo"
-                      src="./assets/about-contact/png/contact-item6.png"
-                      alt="discord"
-                    />
-                    <span class="title-text wrapper-text-link">Discord:</span>
-                    <a
-                      class="btn contact-link"
-                      href="https://discord.com/invite/zUr7wWYPXE"
-                      target="_blank"
-                      >pavlusha#2166</a
-                    >
-                  </li>
-                </ul>
+            <div class="skills-wrapper">
+              <div class="skills-column margin-left-50">
+                <img
+                  class="logo-skills"
+                  src="./assets/skills/html.png"
+                  alt="html-logo"
+                />
+                <p class="text title-skills-content">HTML</p>
+                <p class="text text-skills-content">(medium level)</p>
+              </div>
+              <div class="skills-column margin-top-50 margin-left-50">
+                <img
+                  class="logo-skills"
+                  src="./assets/skills/css.png"
+                  alt="css-logo"
+                />
+                <p class="text title-skills-content">CSS</p>
+                <p class="text text-skills-content">(medium level)</p>
+              </div>
+              <div class="skills-column margin-top-50 margin-left-50">
+                <img
+                  class="logo-skills"
+                  src="./assets/skills/javascript.png"
+                  alt="javascript-logo"
+                />
+                <p class="text title-skills-content">JavaScript</p>
+                <p class="text text-skills-content">(basics)</p>
+              </div>
+            </div>
+            <div class="skills-wrapper">
+              <div class="skills-column margin-left-50">
+                <img
+                  class="logo-skills"
+                  src="./assets/skills/figma.png"
+                  alt="figma-logo"
+                />
+                <p class="text title-skills-content">Figma</p>
+                <p class="text text-skills-content">(basics)</p>
+              </div>
+              <div class="skills-column margin-top-50 margin-left-50">
+                <img
+                  class="logo-skills"
+                  src="./assets/skills/photoshop.png"
+                  alt="photoshop-logo"
+                />
+                <p class="text title-skills-content">PhotoShop</p>
+                <p class="text text-skills-content">(basics)</p>
               </div>
             </div>
           </div>
         </section>
-        <section class="section section-skills" id="skills-code-projects">
-          <div class="skills">
-            <h2 class="title title-skills">Skills</h2>
-            <span class="title-text title-wrapper-skills"
-              >Web-development:</span
-            >
-            <ul class="wrapper-content-skills">
-              <li class="content-skills">
-                <div class="warapper-skills">
-                  <img
-                    src="./assets/skills-code-projects/png/skills-logo1.png"
-                    alt="html-logo"
-                  />
-                  <img
-                    src="./assets/skills-code-projects/png/skills-logo2.png"
-                    alt="html-logo"
-                  />
-                </div>
-                <span class="text text-skills">HTML (medium level)</span>
-              </li>
-              <li class="content-skills">
-                <div class="warapper-skills">
-                  <img
-                    src="./assets/skills-code-projects/png/skills-logo3.png"
-                    alt="css-logo"
-                  />
-                  <img
-                    src="./assets/skills-code-projects/png/skills-logo4.png"
-                    alt="css-logo"
-                  />
-                </div>
-                <span class="text text-skills">CSS (medium level)</span>
-              </li>
-              <li class="content-skills">
-                <div class="warapper-skills">
-                  <img
-                    src="./assets/skills-code-projects/png/skills-logo5.png"
-                    alt="js-logo"
-                  />
-                </div>
-                <span class="text text-skills">JavaScript (basics)</span>
-              </li>
-            </ul>
-            <span class="title-text title-wrapper-skills"
-              >Version control:</span
-            >
-            <ul class="wrapper-content-skills">
-              <li class="content-skills">
-                <div class="warapper-skills">
-                  <img
-                    src="./assets/skills-code-projects/png/skills-logo6.png"
-                    alt="git-logo"
-                  />
-                </div>
-                <span class="text text-skills">GIT (basics)</span>
-              </li>
-              <li class="content-skills">
-                <div class="warapper-skills">
-                  <img
-                    src="./assets/skills-code-projects/png/skills-logo7.png"
-                    alt="github-logo"
-                  />
-                </div>
-                <span class="text text-skills">Github (basics)</span>
-              </li>
-            </ul>
-            <span class="title-text title-wrapper-skills">Graphics:</span>
-            <ul class="wrapper-content-skills">
-              <li class="content-skills">
-                <div class="warapper-skills">
-                  <img
-                    src="./assets/skills-code-projects/png/skills-logo8.png"
-                    alt="figma-logo"
-                  />
-                </div>
-                <span class="text text-skills">Figma (basics)</span>
-              </li>
-              <li class="content-skills">
-                <div class="warapper-skills">
-                  <img
-                    src="./assets/skills-code-projects/png/skills-logo9.png"
-                    alt="photoshop-logo"
-                  />
-                </div>
-                <span class="text text-skills">Photoshop (basics)</span>
-              </li>
-            </ul>
-          </div>
-          <ul class="wraper-code-projets">
-            <li class="code">
-              <h2 class="title title-skills">Code Example</h2>
-              <div class="wrapper-code">
-                <img
-                  src="./assets/skills-code-projects/png/skills-logo10.png"
-                  alt="code-logo"
-                />
-                <pre class="big-code">
-                  <code>
+        <section id="code" class="section code">
+          <h2 class="title code-title">Code Example</h2>
+          <div class="code-wrapper">
+            <div class="code-content code-left-block">
+              <pre><code class="text">
 function greet() {
   return ('hello world!');
  };
-                </code>
-              </pre>
-              </div>
-            </li>
-            <li class="projects">
-              <h2 class="title title-skills">Projects</h2>
-              <div class="wrapper-code">
-                <img
-                  src="./assets/skills-code-projects/png/skills-logo11.png"
-                  alt="cv-logo"
-                />
-                <a
-                  class="btn project-link"
-                  href="https://aurheim1.github.io/rsschool-cv/cv"
-                  >My CV (Markdown)</a
-                >
-              </div>
-            </li>
-          </ul>
+              </code></pre>
+            </div>
+            <div class="code-content code-right-block">
+              <img
+                class="logo-code"
+                src="./assets/code/code.png"
+                alt="logo-code"
+              />
+            </div>
+          </div>
         </section>
-        <section
-          class="section section-courses-education-english"
-          id="courses-education-english"
-        >
-          <div class="courses">
-            <h2 class="title title-courses">Courses</h2>
-            <div class="youtube">
-              <div class="youtube-item">
-                <img
-                  class="you"
-                  src="./assets/courses-education-english/png/youtobe.png"
-                  alt="youtube-logo"
-                />
-                <span class="title-text">YouTube Сhannel</span>
-              </div>
-              <div class="channel-item">
-                <a
-                  class="btn channel-link"
-                  href="https://www.youtube.com/c/BrainsCloud"
-                  >BrainsCloud</a
-                >
-                <a
-                  class="btn channel-link"
-                  href="https://www.youtube.com/c/VladilenMinin"
-                  >Vladilen Minin</a
-                >
-                <a
-                  class="btn channel-link"
-                  href="https://www.youtube.com/c/FreelancerLifeStyle"
-                  >Freelancer for life</a
-                >
-              </div>
+        <section id="projects" class="section projects">
+          <h1 class="title title-projects">Projects</h1>
+          <div class="projects-wrapper">
+            <div class="projects-content projects-left-block">
+              <img
+                class="logo-projects"
+                src="./assets/projects/projects.png"
+                alt="logo-projects"
+              />
+            </div>
+            <div class="projects-content projects-right-block">
+              <img
+                class="logo-resume"
+                src="./assets/projects/resume.png"
+                alt="logo-resume"
+              />
+              <a
+                href="https://github.com/Aurheim1/rsschool-cv/blob/gh-pages/cv.md"
+                target="_blank"
+                class="btn btn-projects"
+                >My CV</a
+              >
             </div>
           </div>
-          <div class="education">
-            <h2 class="title title-courses">Education</h2>
-            <div class="education-english-item">
+        </section>
+        <section id="courses" class="section courses">
+          <h1 class="title title-courses">Courses</h1>
+
+          <div class="courses-wrapper">
+            <div class="courses-content courses-left-block">
               <img
-                class="you"
-                src="./assets/courses-education-english/png/university.png"
-                alt="university-logo"
+                class="logo-youtube"
+                src="./assets/courses/youtube.png"
+                alt="logo-youtube"
               />
-              <p class="text">
-                <span class="title-text">University:</span> Belarusian Trade and
-                Economic University of Consumer Cooperation
+              <p class="text">Channels</p>
+              <a
+                href="https://www.youtube.com/c/BrainsCloud"
+                target="_blank"
+                class="btn btn-courses"
+                >BrainsCloud</a
+              >
+              <a
+                href="https://www.youtube.com/c/VladilenMinin"
+                target="_blank"
+                class="btn btn-courses"
+                >Vladilen Minin</a
+              >
+              <a
+                href="https://www.youtube.com/c/FreelancerLifeStyle"
+                target="_blank"
+                class="btn btn-courses"
+                >Freelancer for life</a
+              >
+            </div>
+            <div class="courses-content courses-right-block">
+              <img
+                class="logo-course"
+                src="./assets/courses/course.png"
+                alt="logo-course"
+              />
+            </div>
+          </div>
+        </section>
+        <section id="education" class="section education">
+          <h2 class="title title-education">Education</h2>
+          <div class="education-wrapper">
+            <div class="education-content education-left-block">
+              <img
+                class="logo-education"
+                src="./assets/education/education.png"
+                alt="logo-education"
+              />
+            </div>
+            <div class="education-content education-right-block">
+              <img
+                class="logo-university"
+                src="./assets/education/university.png"
+                alt="logo-university"
+              />
+              <p class="text title-content-education">University</p>
+              <p class="text text-content-education">
+                Belarusian Trade and Economic University of Consumer Cooperation
               </p>
             </div>
           </div>
-          <div class="english">
-            <h2 class="title title-courses">English</h2>
-            <div class="education-english-item">
+        </section>
+        <section id="language" class="language">
+          <h2 class="title title-language">Language</h2>
+          <div class="language-wrapper">
+            <div class="language-content language-left-block">
               <img
-                class="you"
-                src="./assets/courses-education-english/png/english.png"
-                alt="english-logo"
+                class="logo-language-left"
+                src="./assets/language/language-two.png"
+                alt="logo-language"
               />
-              <p class="text">
-                <span class="title-text">Beginner:</span> My level of English is
-                very weak, I often use a translator, but in the future I plan to
-                learn it better
+              <p class="text title-content-language">English</p>
+              <p class="text text-content-language">
+                Beginner: My level of English is very weak, I often use a
+                translator, but in the future I plan to learn it better
               </p>
+              <p class="text title-content-language">Russian</p>
+              <p class="text text-content-language">native</p>
+            </div>
+            <div class="language-content language-right-block">
+              <img
+                class="logo-language"
+                src="./assets/language/language-one.png"
+                alt="logo-language"
+              />
             </div>
           </div>
         </section>
       </div>
     </main>
-    <footer id="footer" class="footer">
-      <div class="container">
-        <div class="footer-container">
-          <div>
-            © 2022
-            <a
-              class="btn contact-link"
-              href="https://github.com/Aurheim1"
-              target="_blank"
-              >Aurheim1</a
-            >
-          </div>
+    <footer class="footer">
+      <div class="container footer-row">
+        <div class="footer-content">
+          © 2022
           <a
-            class="btn contact-link"
-            href="https://rs.school/js/"
+            class="btn footer-btn"
+            href="https://github.com/Aurheim1"
             target="_blank"
-            >RS School</a
+            >Aurheim1</a
           >
         </div>
+        <a href="https://rs.school/js/" target="_blank" class="rrs"
+          ><img class="logo-rrs" src="./assets/footer/rss.svg" alt="logo-rrs"
+        /></a>
       </div>
     </footer>
-    <script src="js/script.js"></script>
   </body>
 </html>
